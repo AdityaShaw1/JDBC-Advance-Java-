@@ -1,0 +1,1 @@
+create table e_reg1(email varchar2(30) primary key,password varchar2(30),name varchar2(10),securityQuestion varchar2(30),answer varchar2(30),contact varchar2(10));
