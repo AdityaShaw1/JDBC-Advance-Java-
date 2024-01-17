@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        
+    </head>
+    <body bgcolor="lightblue">
+         <h1>            
+             Sign Up Now!
+     </h1>
+   
+   
+    <form action="reg4" method="post">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Don't enter previous email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter the password"><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Don't exceed 10 characters"><br><br>
+
+        <label for="securityQuestion">Security Question:</label>
+        <select id="securityQuestion" name="securityQuestion" required>
+            <option value="" disabled selected>Select a Security Question</option>
+            <option value="q1">What is your favorite color?</option>
+            <option value="q2">In which city were you born?</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="answer">Answer:</label>
+        <input type="text" id="answer" name="answer" required placeholder="Enter your answer.."><br><br>
+
+        <label for="contactNo">Contact No.:</label>
+        <input type="tel" id="contactNo" name="contactNo" required placeholder="Enter your contact no."><br><br><br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>
